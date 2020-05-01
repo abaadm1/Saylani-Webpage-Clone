@@ -523,7 +523,7 @@
 .menubar ul li:hover .submenu1 ul li{
     position: relative;
     right:50px;
-    width:130px;
+    width:170px;
     height:20px;
     padding: 10px;
 	background: transparent;
@@ -532,6 +532,7 @@
     font-size: 11px;
     margin-left: 0;
 
+
 }
 
 .submenu2{
@@ -539,14 +540,20 @@
 }
 
 .hoverme:hover .submenu2{
-	position: relative;
+    position: absolute;
+    left:1px;
+    top: 0px;
 	display: block;
-	margin-top: -35px;
-	margin-left: 191px;
+	margin-top: 0px;
+	margin-left: 200px;
     background-color: white;
     width: 200px;
 
 }
+
+
+
+
 
 
 
